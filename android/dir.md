@@ -1,3 +1,4 @@
+```
 AspiraMap/android/
 ├── src/                     # Source code for Android app
 │   ├── main/
@@ -6,3 +7,4 @@ AspiraMap/android/
 │   └── test/                # Unit tests
 ├── build/                   # Build files
 └── gradle/                  # Gradle files
+```
