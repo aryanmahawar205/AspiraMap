@@ -58,5 +58,5 @@ AspiraMap/
 ```
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/aryanmahawar205/AspiraMap/blob/main/LICENSE.md) file for more details.
+This project is licensed under the MIT License. See the [LICENSE.md](https://github.com/aryanmahawar205/AspiraMap/blob/main/LICENSE.md) file for more details.
 
