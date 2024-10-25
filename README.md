@@ -55,3 +55,8 @@ AspiraMap/
 ├── assets/          # Images, logo, etc.
 ├── docs/            # Documentation and project-related files
 └── README.md        # Project README file
+```
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/aryanmahawar205/AspiraMap/blob/main/LICENSE.md) file for more details.
+
