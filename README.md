@@ -50,7 +50,7 @@ AspiraMap is an AI-powered career guidance platform designed to help students an
 ```bash
 AspiraMap/
 ├── .idx/            # Andriod app dev env settings
-├── android/         # Android app source code
+├── android/         # Android app source code with live data survey
 ├── web/             # Interactive webpage source code
 ├── ai_model/        # AI model and related scripts
 ├── assets/          # Images, logo, etc.
