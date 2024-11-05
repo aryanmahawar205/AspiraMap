@@ -1,57 +1,7 @@
 import streamlit as st
-import pandas as pd
-from pathlib import Path
 
-# Sidebar
-# st.sidebar.title("Dashboard")
-# app_mode = st.sidebar.selectbox("Select Page", ["Home", "About", "Find Your Career"])
-
-# # Function to display the home page
-# def home_page():
-#     st.header("AspiraMap")
-#     #image_path =r"C:\Users\Asus\OneDrive\Desktop\demoStreamlit\Leonardo_Phoenix_A_vibrant_and_modern_digital_illustration_of_0.jpg"
-#     #st.image(image_path, use_column_width=True)
-#     st.markdown("""
-#         AspiraMap is an AI-powered career guidance platform designed to help students and professionals find personalized career pathways. 
-#         By integrating advanced AI models, the platform provides tailored career advice, recommendations for skills development, 
-#         and future progression opportunities based on an individual’s aptitude, aspirations, and work experience. AspiraMap is accessible 
-#         via both an Android app and an interactive webpage, ensuring broad accessibility and a seamless user experience.
-#     """)
-
-# # Function to display the about page
-# def about_page():
-#     st.header("About Us")
-#     st.markdown("""
-#         **AI-Driven Career Recommendations**
-#         - Personalized career suggestions based on user data (aptitudes, interests, goals, skills).
-#         - Tailored skill and learning resource recommendations.
-#         - Adaptation to changes in user goals and preferences.
-#         **Android App**
-#         - User-friendly interface to input career goals, skills, and aspirations.
-#         - Instant career recommendations and progress tracking.
-#         - Push notifications for job openings, career tips, and learning opportunities.
-#         **Interactive Web Platform**
-#         - Web-based platform with responsive design for career exploration.
-#         - Career visualization tools, showing users potential career pathways and milestones.
-#         - Dynamic chat interface for human-like career discussions with AI.
-#         **Aptitude and Skills Assessment**
-#         - Built-in tests and quizzes to assess users' strengths and areas for development.
-#         - Ongoing feedback based on user progress and evolving career goals.
-#         **Job Market Integration**
-#         - Real-time job market data (salaries, job openings, industry trends).
-#         - Integration with LinkedIn, Indeed, and other platforms for job search assistance.
-#         **Learning Path Recommendations**
-#         - Suggested courses and resources from platforms like Coursera, edX, Udemy, etc.
-#         - Learning paths curated to align with user career goals.
-#         **User Profile & Progress Tracking**
-#         - Customizable user profiles to store career data, goals, and achievements.
-#         - Career progress tracking, showing users how close they are to their next goal.
-#     """)
-
-# # Function to display the career input form
-# def career_form():
 st.header("AspiraMap")
-#image_path =r"C:\Users\Asus\OneDrive\Desktop\demoStreamlit\Leonardo_Phoenix_A_vibrant_and_modern_digital_illustration_of_0.jpg"    #st.image(image_path, use_column_width=True)
+
 st.markdown("""
        AspiraMap is an AI-powered career guidance platform designed to help students and professionals find personalized career pathways. 
        By integrating advanced AI models, the platform provides tailored career advice, recommendations for skills development, 
@@ -60,6 +10,8 @@ st.markdown("""
     """)
 st.header("Find Your Career")
 st.write("Please fill in the following details to get personalized career guidance.")
+
+    # 1. Full Name  
 full_name = st.text_input("Full Name")
 
     # 2. Email Address
@@ -122,5 +74,3 @@ career_concerns = st.text_area("Concerns About Career Choices")
     # Submit button
 if st.button("Submit"):
         st.success("Thank you for providing your information! Our AI will generate personalized career guidance based on your inputs.")
-
-# Display the selected page
